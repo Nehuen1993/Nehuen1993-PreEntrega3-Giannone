@@ -24,7 +24,18 @@ h1 {
 .info {
   color: #ccc;
   padding: 5px;
+  padding-top: 30px;
   align-items: center; }
+
+  .info-quienes {
+    display: flex;
+    color: #ccc;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 150px;
+    padding: 20px; }
+    .info-quienes:hover {
+      text-decoration: underline; }
 
 .footer-flex {
   display: flex;
@@ -57,16 +68,6 @@ h1 {
   margin: 0 auto;
   text-align: center;
   padding: 10px; }
-
-.info-quienes {
-  display: flex;
-  color: #ccc;
-  margin-left: 50px;
-  margin-right: 50px;
-  height: 150px;
-  padding: 20px; }
-  .info-quienes:hover {
-    text-decoration: underline; }
 
 .imagen-personal {
   width: 150px;
